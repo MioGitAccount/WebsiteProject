@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Edited by XMLSpy® -->
+<Ronjenje>
+	<Destinacija>
+            <Naziv>Oreste</Naziv>
+            <Dubina>33</Dubina>
+            <Stepen>4</Stepen>
+            <ImeVod>Misa</ImeVod>
+            <Cena>20.00</Cena>
+            <Opis>Italijanski parobrod Oreste lezi na morskom dnu na dubini od 33 
+            metara.Oreste je napravljen u Engleskoj 1896.gonine.Istorijski izvori da
+            je naisao na podvodnu minu koja ga je raznela.</Opis>
+            <Slika>brod.jpg</Slika>
+        </Destinacija>
+        <Destinacija>
+            <Naziv>Beli korali</Naziv>
+            <Dubina>20</Dubina>
+            <Stepen>2</Stepen>
+            <ImeVod>Misa</ImeVod>
+            <Cena>20.00</Cena>
+            <Opis>U samoj uvali Jaz na 25 metara dubine nalaze se beli koralni greben povrsine dvadesetak 
+            kvadratnih metara.Zahvaljujuci pescanom dnu i dubini kojoj se nalazi,uspevao je desetinama 
+            godina da opstane i prilicno je u ocuvanom stanju.</Opis>
+            <Slika>pecurke.jpg</Slika>
+        </Destinacija>
+        <Destinacija>
+            <Naziv>Potkrpina</Naziv>
+            <Dubina>14</Dubina>
+            <Stepen>2</Stepen>
+            <ImeVod>Alex</ImeVod>
+            <Cena>20.00</Cena>
+            <Opis>To je najveca potkrpina u ovom delu mora-ulaz se nalazi
+            na 14 metara,a tavanica se dize i preko 10 metara iznad povrsine mora.</Opis>
+            <Slika>pecina.jpg</Slika>
+        </Destinacija>
+        <Destinacija>
+            <Naziv>Pecurke</Naziv>
+            <Dubina>8</Dubina>
+            <Stepen>1</Stepen>
+            <ImeVod>Alex</ImeVod>
+            <Cena>10.00</Cena>
+            <Opis>Teren koji zbog svoje konfiguracije podseca na polje dzinovskih pecuraka.
+            Najzanimljivije su tri stene u obliku pecuraka.Prva se nalazi na svega 8 metara 
+            dubine,ali bogata je malim rupama u kojima krije razlicite stanovnike morskih dubina.</Opis>
+            <Slika>korali.jpg</Slika>
+        </Destinacija>
+	
+	
+	
+	
+</Ronjenje>

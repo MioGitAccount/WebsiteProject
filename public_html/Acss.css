@@ -1,0 +1,189 @@
+body{
+    font-size:  12px;
+    font-family:  Arial, elvetica, sans-serif;
+    background-image: url("Slike/glavna.jpg");
+    background-size: 100% 100%;
+}
+h1{
+    color:#fe9b00;
+    text-align: center;
+    font-size:250%;
+}
+#strana{
+    width: 1000px;
+    height:1000px;
+    margin: auto;
+    margin-top:70px;
+}
+#glava{
+    height:270px;
+   
+}
+#meni{
+    width: 100%;
+    margin:auto;
+    
+}
+#meni ul {
+    width:100%;
+    padding:0px;
+    list-style-type: none;
+    margin: auto;
+    text-align: center;
+    overflow: hidden;
+    background-color: royalblue;
+    border-radius: 10px;
+}
+
+#meni li {
+    float: left;
+    margin-left: 85px;
+}
+#meni li:hover{
+    background-color:#fe9b00;
+}
+
+#meni li a {
+    display: inline-block;
+    text-align: center;
+    padding: 10px 25px;
+    margin :10px;
+    text-decoration: none;
+    color: #fe9b00;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+#meni li a:hover {
+     color: black;
+     border-radius: 10px;
+     border:  royalblue 2px;
+}
+#footer{
+    background-color: royalblue;
+    color:white;
+    padding-left: 100px;
+    padding-top: 15px;
+    height: 40px;
+
+}
+/*Glavna strana*/
+
+div.konteneri{
+    float:left;
+    width:45%;
+/*    height: 300px;*/
+/*    border: 2px solid royalblue;*/
+    border-radius: 10px;
+    text-align: left;
+    margin: 12px;
+    font-size:140%;
+}
+div.konteneri h2{
+    color:#fe9b00;
+    text-align: center;
+}
+div.konteneri hr{
+    color:royalblue;
+    
+}
+#divzaslike{
+    width:90%;
+/*    height: 1300px;*/
+    margin:auto;
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    border:2px solid royalblue;
+}
+#divzaslike img{
+    width:90%;
+    height: 400px;
+    margin:auto;
+    margin-top:10px;
+
+}
+#odabir{
+    text-align: center;
+    
+}
+#odabir ul{
+    list-style-type: none;
+    background-color:royalblue;
+    border-radius:10px;
+    color:#fe9b00;
+    width:300px;
+    height:35px;
+    margin:auto;
+    
+    
+}
+#odabir li{
+    float:left;
+    width: 30%;
+    font-size:160%;
+    padding-top:5px;
+    
+}
+
+
+/*Zaroni*/
+
+#kontrola{
+	width : 100%;
+	color : #000000;
+	font-family: Arial, Verdana, sans-serif;
+	border : 1px solid royalblue;
+	border-radius : 5px;
+        text-align: center;
+}
+table
+{
+	border :none;
+	border-spacing : 0px;
+	margin-left : auto;
+	margin-right : auto;
+        margin-top: 10px;
+	width : 80%;
+        border-collapse:collapse;
+/*        background-color: white;*/
+}
+
+td
+{
+	border : 3px solid royalblue;
+        padding-left: 10px;
+}
+th{
+        border : 3px solid royalblue;
+        padding-left: 10px;
+}
+
+td.tekst
+{
+	width : 20%;
+}
+
+td.cena
+{
+	width : 20%;
+	text-align : right;
+	color : orange;
+	font-weight : bold;
+}
+#opis{
+    margin:auto;
+    margin-top:20px;
+    width: 70%;
+/*    background-color:white;*/
+    border-radius: 40px;
+    font-size:120%;
+    
+}
+#opis img{
+    float:right;
+    border:2px solid black;
+    width:400px;
+    height:300px;
+}

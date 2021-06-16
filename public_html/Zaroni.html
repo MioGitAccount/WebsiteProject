@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Zaroni</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="Acss.css" rel="stylesheet" type="text/css"/>
+        <script src="Java.js" type="text/javascript"></script>
+    </head>
+    <body>
+       <div id="strana">
+             <div id="meni">
+                    <ul>
+                        <li><a href="./index.html">Pocetna</a></li>
+                        <li><a href="./Kontakt.html">Kontakt</a></li>
+                        <li><a href="./Zaroni.html">Zaroni</a></li>
+                        <li><a href="./gallery.html">Galerija</a></li>
+                        
+                     </ul>
+                </div>
+           <h1>Zaroni</h1>
+        
+            <div>
+                <div id="kontrola">
+                              Maksimalna dubina: <input type="text" id="max" value="0.00" />metara, 
+                               <span> Vas stepen obuke:</span>
+                                                                <select id="padajuca">
+                                                                    <option value="1">Prvi</option>
+                                                                    <option value="2">Drugi</option>
+                                                                    <option value="3">Treci</option>
+                                                                    <option value="4">Cetvrti</option>
+                                                                    <option value="5">Peti</option>
+                                                                </select>
+                              <input type="button" value="Prikazi" onclick="prikazi()"/>
+		</div>
+                <div id="prikaz">
+                            <table id="tab">
+                                
+                            </table>
+                    <div id="opis"></div>
+		</div>
+            </div>
+       </div>
+    </body>
+</html>
